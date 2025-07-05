@@ -97,6 +97,24 @@ npx hardhat test test/AaveFlashLoan/AaveFlashLoan.js --network neondevnet
 - [x] Flashloan workflow is complete and reproducible
 - [x] **Bonus:** Article, social media content, troubleshooting, and security best practices
 
+## 🚀 Distinctive Features
+
+- **Automated environment & secret validation:**
+  - Run `node scripts/check-setup.cjs` to check all required environment variables, keystore secrets, and files before you start.
+- **One-click setup script:**
+  - Run `./setup.sh` to install dependencies and validate your environment in one step.
+
+These features help new users and reviewers quickly verify and set up the project, reducing onboarding friction and avoiding common mistakes.
+
+**Usage:**
+```bash
+# Validate your environment and secrets
+node scripts/check-setup.cjs
+
+# Or do everything in one go
+./setup.sh
+```
+
 ---
 
 ## Secret values setup
